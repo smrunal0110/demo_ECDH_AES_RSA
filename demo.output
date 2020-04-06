@@ -1,0 +1,44 @@
+Original Message from Alice that is being encrypted
+--------------------------------------------------------------------------
+From Alice to Bob: sending this message to BOB by encrypting in AES GCM Mode.
+
+
+CIPHER text of the Alice's Message to Bob original message in hex
+---------------------------------------------------------------------------
+8f462fc381b61077262779b4d4018ecd7df74fe61487b19e933b0d0501f2b9ee2a9b3254ec540a8619589c772f248630a807722cf07e6ad31de62ac038d99b2240b875f0c46cba8e66324257c5
+
+
+Signature
+-----------------------------------------------------------------
+614504662f1a86632bfa4611c631aa00fe93c8288e264a2a72f740b30d835b28f9c78b49bfc16979b0a651d8ea91e3599b9786556fcfac982c4dce433aa92f597d1f6cf81c3a046aedb53dab92a526e0b18b4b53f003286a614f6fa19af8083099c4306f91be7e58461f38b63e631576310ffbcf233df3d141df3269b995e339f1ce4853342a95a54e96f6ddea9efbdec52bea808ed3d5aa4e71a4748ececfc7bdc348dabc8f579798ec6e133f629fe8cd653a394b1f9857cd3f5f7fb8c75f95be5012710cfd79083038c34ce89b445ec1c71d2966ead7afa8995560ecc6930a49bb5775e232155de4b9c66b5cf18506d47835273e5a07dc6bd06e13302810e4
+
+
+Bob validates Alice's signature, so message will be decrypted
+
+Recovered Alice's Original Message
+---------------------------------------------------------------------------
+From Alice to Bob: sending this message to BOB by encrypting in AES GCM Mode.
+
+
+Original Message from Bob that is being encrypted
+--------------------------------------------------------------------------
+From Bob to Alice: sending this message to Alice by encrypting in AES GCM Mode.
+
+
+CIPHER text of Bob's message to Alice the original message in hex
+---------------------------------------------------------------------------
+aa653acf9c3d08d105cc4fd77dacc25197bb4e0406cea7b78423847540b655a1eed1b2e5bf619c9934b54b96b61f27d7586afbe3b532ff0c0717f1e386d171a227b0d7ecfeb4a536aa47307b8c3dbd
+
+
+Signature
+-----------------------------------------------------------------
+2c8db72541595f397be2fac4a8427475262c6f53ffedac23cb695093425ab409b28c94abbf21ed463040ac8412d304d74d21488931eb6ffcb580a75fa72aa5d324579a6669b25fdb41ccce2262136f916660ce4728c7a73365d8eeb19ee13f61711a741b0214f1a5cab70b39068d6e795bc4f46608547a088eabb8cf7dd6c4875e6d07383793e9b59bcaa312592c70cc17df874b6836f3d9e49841564e547c8b9b2e38777ab5bc68396649897d803379a6bb54404b55d0010f16ae809d43f295d5694968fc596021d3f802c92b71d5f809215e3aa80b9ee2410c0e8806e652e6b2995821586f802b1f2c654eaae29431de6aa68663778979f4d3e2bd37f570e9
+
+
+Alice validates Bob's signature, so message will be decrypted
+
+Recovered Bob's Original Message
+---------------------------------------------------------------------------
+From Bob to Alice: sending this message to Alice by encrypting in AES GCM Mode.
+
+
